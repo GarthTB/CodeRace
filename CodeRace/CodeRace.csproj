@@ -7,6 +7,40 @@
     <Nullable>enable</Nullable>
     <PublishAot>true</PublishAot>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <ApplicationIcon>assets\favicon.ico</ApplicationIcon>
+    <PackageId>CodeRace</PackageId>
+    <Title>CodeRace</Title>
+    <Version>1.0.0</Version>
+    <Authors>GarthTB &lt;g-art-h@outlook.com&gt;</Authors>
+    <Company>GarthTB &lt;g-art-h@outlook.com&gt;</Company>
+    <Product>CodeRace</Product>
+    <Description>一个计算输入整篇文章所需最小当量的工具</Description>
+    <Copyright>Copyright © 2025 GarthTB. All rights reserved.</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/GarthTB/CodeRace</RepositoryUrl>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="assets\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="assets\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
