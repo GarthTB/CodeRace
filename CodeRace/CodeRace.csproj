@@ -14,7 +14,7 @@
     <Authors>GarthTB &lt;g-art-h@outlook.com&gt;</Authors>
     <Company>GarthTB &lt;g-art-h@outlook.com&gt;</Company>
     <Product>CodeRace</Product>
-    <Description>一个计算输入整篇文章所需最小当量的工具</Description>
+    <Description>计算输入整篇文章所需最小当量的工具</Description>
     <Copyright>Copyright © 2025 GarthTB. All rights reserved.</Copyright>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
